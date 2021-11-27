@@ -1,2 +1,15 @@
-# chat-bot
-Chat-bot with state-machine
+# Чат-бот для Telegramm
+Чат-бот реализован с применением state-machine из этого репозитория <br> 
+https://github.com/pytransitions/transitions <br>
+Версия Python 3.8 <br>
+Порядок запуска бота: <br>
+1) склонировать репозиторий проекта https://github.com/popovpp/chat-bot.git в локальную папку; <br>
+2) поднять виртуальное окружение (virtualenv, anaconda-navigator и т.д.); <br>
+3) выполнить установку необходимых библиотек посредством: <br>
+pip install requirements.txt <br>
+4) запустить бота, выполнив в корневой папке проекта команду: <br>
+python tbot1.py <br>
+Запуск тестов - командой в корневой паке проекта: <br>
+pytest tests.py <br>
+
+Перед запуском бота, само собой, необходимо зарегистрировать бота в Telegram и получить уникальный токен, который в соответствующем блоке кода должен быть прочитан.
