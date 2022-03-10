@@ -8,7 +8,7 @@ from transitions import Machine
 
 
 
-TOKEN = '2117156469:AAEjvdiPQj32FT20YOCVJ1kIgyzUAZubIRs'
+TOKEN = '1111111111'
 updater = Updater(token=TOKEN)
 dispatcher = updater.dispatcher
 
