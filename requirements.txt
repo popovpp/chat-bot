@@ -1,9 +1,9 @@
 aenum==2.2.6
 APScheduler==3.6.3
 attrs==21.2.0
-backports.zoneinfo==0.2.1
+backports.zoneinfo;python_version<"3.9"
 beautifulsoup4==4.10.0
-bot-vk==1.7
+# bot-vk==1.7
 cachetools==4.2.2
 certifi==2021.10.8
 charset-normalizer==2.0.8
@@ -23,7 +23,7 @@ pytz==2021.3
 pytz-deprecation-shim==0.1.0.post0
 requests==2.26.0
 six==1.16.0
-skype-chatbot==1.0.4
+# skype-chatbot==1.0.4
 soupsieve==2.3.1
 toml==0.10.2
 tornado==6.1
@@ -31,5 +31,5 @@ transitions==0.8.10
 tzdata==2021.5
 tzlocal==4.1
 urllib3==1.26.7
-vk-api==11.9.6
+# vk-api==11.9.6
 zope.interface==5.4.0

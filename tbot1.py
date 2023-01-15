@@ -8,7 +8,7 @@ from transitions import Machine
 
 
 
-TOKEN = '1111111111'
+TOKEN = '5867428357:AAEeCUfoTRftMzjWwnlkblTgihPe5cwx2kE'
 updater = Updater(token=TOKEN)
 dispatcher = updater.dispatcher
 
@@ -149,7 +149,10 @@ def message(update, context):
     if text == states[11]:
         lump.trigger(text)
     context.bot.send_message(chat_id=update.effective_chat.id, 
-                             text=text) 
+                             text=text)
+    # print('####################################33', update.message.text.lower())
+    with open('test.txt', 'w') as f:
+      f.write(update.message.text.lower())
 
 # функция обработки не распознных команд
 def unknown(update, context):
